@@ -19,7 +19,6 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
   gap: 12px;
   padding: 1px;
 }
@@ -30,5 +29,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  display: block;
+  display: block; /* overrides default margin of a <ul> element */
 }
