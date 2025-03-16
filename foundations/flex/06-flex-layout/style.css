@@ -32,6 +32,18 @@ a {
   color: #6b6b6b;
 }
 
+.header ul {
+  display: flex;
+  gap: 8px;
+  padding: 0px;;
+}
+
+.footer ul{
+  display: flex;
+  gap: 8px;
+  padding: 0px;;
+}
+
 img {
   width: 600px;
 }
