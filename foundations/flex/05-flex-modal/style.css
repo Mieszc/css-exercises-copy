@@ -28,6 +28,24 @@ body {
 .titleAndClose {
   display: flex; 
   justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.contentRight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textAndButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .icon {
@@ -57,6 +75,10 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.buttonContainer {
+  display: inline-block;
 }
 
 button {
