@@ -7,6 +7,8 @@ body {
   font-family: Roboto, sans-serif;
   padding-right: 16px;
   padding-left: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -46,6 +48,10 @@ a {
 
 img {
   width: 600px;
+}
+
+.content {
+  margin: auto;
 }
 
 button {
